@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+}
+
+#bg{
+    position: relative;
+}
+
+.hero{
+    background: url('./images/hero.png'); 
+    background-position-x: 140px;
+    position: absolute;
+    width: 35px;
+    height: 54px;
+    left : 400px;
+    top : 545px;
+}
+
+.ghost {
+    background: url('./images/enemy.png');
+    background-position-x: 90px;
+    position: absolute;
+    width: 45px;
+    height: 54px;
+    left: 400px;
+    top: 0px;   
+}
+
+
+/*테스트용*/
+/* #hero{
+    background: url('./images/hero.png'); 
+    background-position-x: 140px;
+    position: absolute;
+    width: 35px;
+    height: 54px;
+    left : 435px;
+    top : 545px;
+}
+
+#enemy {
+    background: url('./images/enemy.png');
+    background-position-x: 90px;
+    position: absolute;
+    width: 45px;
+    height: 54px;
+    left: 435px;
+    top: 500px;
+    
+} */
